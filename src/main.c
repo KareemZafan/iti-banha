@@ -11,7 +11,9 @@ int linearSearch(int arr[], int size, int value)
 
 
 double getMax(double a, double b){
- return  (a > b) ? a: b ; 
+ if (a > b) 
+ return a; 
+ return b ; 
 }
 
 
